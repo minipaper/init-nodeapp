@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "node app boilerplate",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node -r dotenv/config src/index.js"
   },
   "keywords": [],
   "author": "minipaper",
@@ -15,5 +15,8 @@
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.13.15",
     "babel-loader": "^8.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
   }
 }
